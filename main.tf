@@ -19,7 +19,7 @@ module tf_azure_appservice_plan_mrasptst {
     terraform_managed            = "true"
   }
   resource_name   = "mrasptst"
-  sku_tier        = "PremiumV1"
+  sku_tier        = "PremiumV2"
   subscription_id = ""
   resource_group  = "AZ-RG-grey-Dev-03"
   access_groups   = ["CPA-ManageAccess"]
