@@ -4,6 +4,7 @@ module tf_azure_appservice_plan_mrasptst {
   os                         = "windows"
   app_service_environment_id = ""
   resource_tags = {
+    app_shortname                = "cloudpipelines"
     Application_Id               = "CI002489694"
     Application_Name             = "cloudpipelines"
     Billing_Notification_Group   = ""
