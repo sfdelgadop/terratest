@@ -5,7 +5,19 @@ terraform {
       version = "~> 3.0.2"
     }
   }
-
+  database_config = [{
+    db_edition        = "GeneralPurpose"
+    db_name           = "db01"
+    elastic_pool_name = ""
+    max_size_gb       = "5"
+    sku_name          = "GP_Gen5_2"
+    }, {
+    db_edition        = "Standard"
+    db_name           = "db02"
+    elastic_pool_name = ""
+    max_size_gb       = "5"
+    sku_name          = "S0"
+  }]
   required_version = ">= 1.1.0"
 }
 
