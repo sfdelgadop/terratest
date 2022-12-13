@@ -9,7 +9,7 @@ terraform {
     db_edition        = "GeneralPurpose"
     db_name           = "db01"
     elastic_pool_name = ""
-    max_size_gb       = "5"
+    max_size_gb       = 5
     sku_name          = "GP_Gen5_2"
     }, {
     db_edition        = "Standard"
