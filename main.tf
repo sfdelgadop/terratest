@@ -5,19 +5,6 @@ terraform {
       version = "~> 3.0.2"
     }
   }
-  database_config = [{
-    db_edition        = "GeneralPurpose"
-    db_name           = "db01"
-    elastic_pool_name = ""
-    max_size_gb       = 5
-    sku_name          = "GP_Gen5_2"
-    }, {
-    db_edition        = "Standard"
-    db_name           = "db02"
-    elastic_pool_name = ""
-    max_size_gb       = "5"
-    sku_name          = "S0"
-  }]
   required_version = ">= 1.1.0"
 }
 
@@ -35,6 +22,19 @@ module tf_azure_appservice_plan_mrasptst {
   sku_workers                = 1
   os                         = "windows"
   app_service_environment_id = ""
+  database_config = [{
+    db_edition        = "GeneralPurpose"
+    db_name           = "db01"
+    elastic_pool_name = ""
+    max_size_gb       = 5
+    sku_name          = "GP_Gen5_2"
+    }, {
+    db_edition        = "Standard"
+    db_name           = "db02"
+    elastic_pool_name = ""
+    max_size_gb       = "5"
+    sku_name          = "S0"
+  }]
   resource_tags = {
     app_shortname                = "cloudpipelines"
     app_id                       = "CI002489694"
