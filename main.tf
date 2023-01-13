@@ -34,6 +34,7 @@ module tf_azure_appservice_plan_mrasptst {
     elastic_pool_name = ""
     max_size_gb       = "5"
     sku_name          = "S0"
+    test_list         = ["abc","123","test"]
   }]
   resource_tags = {
     app_shortname                = "cloudpipelines"
