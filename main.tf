@@ -57,4 +57,5 @@ module tf_azure_appservice_plan_mrasptst {
   resource_group  = "AZ-RG-grey-Dev-03"
   access_groups   = ["CPA-ManageAccess"]
   sku_size        = "P1v2"
+database_config_indexes="01"
 }
