@@ -60,4 +60,5 @@ module tf_azure_appservice_plan_mrasptst {
   sku_size        = "P1v2"
 new-attr="new"
 new-attr2="new"
+new-attr3="new"
 }
