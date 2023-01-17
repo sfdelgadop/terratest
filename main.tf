@@ -59,4 +59,5 @@ module tf_azure_appservice_plan_mrasptst {
   access_groups   = ["CPA-ManageAccess", "test"]
   sku_size        = "P1v2"
 new-attr="new"
+new-attr2="new"
 }
