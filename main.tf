@@ -61,4 +61,5 @@ module tf_azure_appservice_plan_mrasptst {
 new-attr="new"
 new-attr2="new"
 new-attr3="new"
+new-attr4="new"
 }
