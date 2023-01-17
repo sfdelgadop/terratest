@@ -22,19 +22,20 @@ module tf_azure_appservice_plan_mrasptst {
   sku_workers                = 1
   os                         = "windows"
   app_service_environment_id = ""
-  database_config = [{
-    db_edition        = "GeneralPurpose"
-    db_name           = "db01"
+  database_config =[{
+    db_edition = "GeneralPurpose"
+    db_name = "db01"
     elastic_pool_name = ""
-    max_size_gb       = 5
-    sku_name          = "GP_Gen5_2"
+    max_size_gb = 5
+    sku_name = "GP_Gen5_2"
     }, {
-    db_edition        = "Standard"
-    db_name           = "db02"
+    db_edition = "Standard"
+    db_name = "db02"
     elastic_pool_name = ""
-    max_size_gb       = "5"
-    sku_name          = "S0"
-    test_list         = ["abc","123","test"]
+    max_size_gb = "5"
+    sku_name = "S0"
+    test_list = ["abc","123","test"]
+    new-inner-attr = "test"
   }]
   resource_tags = {
     app_shortname                = "cloudpipelines"
@@ -55,7 +56,7 @@ module tf_azure_appservice_plan_mrasptst {
   sku_tier        = "PremiumV6"
   subscription_id = ""
   resource_group  = "AZ-RG-grey-Dev-03"
-  access_groups   = ["CPA-ManageAccess"]
+  access_groups   = ["CPA-ManageAccess", "test"]
   sku_size        = "P1v2"
-database_config_indexes="01"
+new-attr="new"
 }
