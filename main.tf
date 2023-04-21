@@ -113,7 +113,7 @@ module tf_azure_appservice_plan_mrasptst {
     WBS_Element                  = null
     terraform_managed            = "true"
   }
-  resource_name   = "azw-mrasptst"
+  resource_name   = "mrasptst"
   sku_tier        = "PremiumV6"
   subscription_id = ""
   resource_group  = "AZ-RG-grey-Dev-03"
