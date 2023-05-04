@@ -1,9 +1,155 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T21:25:29.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.8" etag="tY3anS4vfpkNdqInZxIg" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T22:12:44.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vQW4qCbROBswghKilAmg" version="21.2.8" type="github">
   <diagram name="Página-1" id="9mp2UCSGdCdKBYtvroPn">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-2" target="tiZqIca9qcJaEBZ7UUmi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-2" value="Build Image and install image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" vertex="1" parent="1">
+          <mxGeometry x="409.85" y="180" width="35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-6" target="tiZqIca9qcJaEBZ7UUmi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-6" value="Hardening process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-7" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="400.68" y="90" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-9" target="tiZqIca9qcJaEBZ7UUmi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="280" />
+              <mxPoint x="280" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-9" target="tiZqIca9qcJaEBZ7UUmi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-9" value="Cis-Cat Benchmark" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-13" value="high score" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-14" value="How much is enought?" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-15" target="tiZqIca9qcJaEBZ7UUmi-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-15" value="publish image to infosec gallery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Images.svg;" vertex="1" parent="1">
+          <mxGeometry x="409.85" y="530" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-18" value="low score" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="170" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-19" target="tiZqIca9qcJaEBZ7UUmi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-19" value="create image from the vm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-22" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="409.84999999999997" y="430" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-23" value="Cis-Cat configurations" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="486.96" y="265" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-24" value="Where the base image is coming from?" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="476.12" y="60" width="133.04" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-25" value="are you using some scripts or is all manual" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="454.59000000000003" y="140" width="176.09" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-27" target="tiZqIca9qcJaEBZ7UUmi-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-27" value="download image from galery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-28" target="tiZqIca9qcJaEBZ7UUmi-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-28" value="Build Image and install image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-29" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="409.84999999999997" y="720" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-30" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Images.svg;" vertex="1" parent="1">
+          <mxGeometry x="409.85" y="620" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-33" value="CloudOps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="580" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-34" target="tiZqIca9qcJaEBZ7UUmi-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-34" value="Puppet automated OS image testing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-36" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/CloudTest.svg;" vertex="1" parent="1">
+          <mxGeometry x="420" y="820" width="34.59" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-37" target="tiZqIca9qcJaEBZ7UUmi-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-37" value="Result Check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-39" value="publish image to Shared gallery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-40" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Images.svg;" vertex="1" parent="1">
+          <mxGeometry x="409.85" y="1090" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiZqIca9qcJaEBZ7UUmi-42" target="tiZqIca9qcJaEBZ7UUmi-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-42" value="create image from the vm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-43" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="409.84999999999997" y="990" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-45" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" vertex="1" parent="1">
+          <mxGeometry x="418.91" y="900" width="35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-46" value="Is really necesary to have 2 diferent galleries?" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480.44" y="605" width="123.04" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-47" value="Info about those tests" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="486.96000000000004" y="805" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-48" value="the results are publish in some place?" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480.44" y="877.5" width="123.04" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-49" value="Versioning and retencion policy" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="486.96000000000004" y="1070" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-50" value="Versioning and retencion policy" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="486.96000000000004" y="505" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-51" value="InfoSec" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiZqIca9qcJaEBZ7UUmi-55" value="What happend when those test fail?" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="481.12" y="840" width="123.04" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
